@@ -1,0 +1,115 @@
+{
+  "source": "collect-new + collect-risk",
+  "version": "1.0",
+  "companyName": "浙江华通云数据科技有限公司",
+  "shortName": "华通云数据",
+  "summary": "浙大网新（600797）旗下专注于IDC与云计算服务的全资子公司，拥有20万平米数据中心、2万+机柜，国内头部第三方数据中心服务商，阿里云紧密战略合作伙伴。",
+  "industry": "软件和信息技术服务业",
+  "subIndustry": "IDC/云计算/数据中心服务",
+  "scale": "中型企业（100-499人，注册资本近3亿元）",
+  "mainBusiness": "数据中心托管（IDC）、政务专有云服务、互联网资源服务",
+  "products": [
+    { "name": "数据中心业务", "description": "立足浙江布局全国，已投运T3及以上标准数据中心（上海桂桥、杭州转塘等），总建筑面积20万平米+，在网运营机柜20000+个" },
+    { "name": "云计算业务", "description": "政务专有云建设咨询、实施交付及运维服务，主导建设杭州市政务专有云平台" },
+    { "name": "互联网资源业务", "description": "与阿里云、腾讯云、百度云等主流云平台互联互通，建有全国最大的互联网资源中心之一" },
+    { "name": "DeepSeek大模型服务平台", "description": "2024年联合杭州数据交易所发布，布局AI算力应用服务" }
+  ],
+  "targetCustomers": ["政府机构（杭州/浙江政务云）", "阿里云等公有云厂商", "企业数字化转型客户"],
+  "businessModel": "B2B基础设施+云服务（机柜租赁、云托管、政务服务）",
+  "rating": "BBB+",
+  "tags": ["IDC", "政务云", "阿里云生态", "算力", "DeepSeek", "第三方数据中心", "浙大网新", "高新技术企业"],
+  "website": "www.watone.com.cn",
+  "slogan": null,
+  "isListed": false,
+  "stockCode": null,
+  "revenueScale": null,
+  "registration": {
+    "registeredName": "浙江华通云数据科技有限公司",
+    "registeredCapital": "29986.25万人民币",
+    "paidCapital": "29986.25万人民币",
+    "establishedDate": "2012-07-16",
+    "legalRepresentative": "史烈",
+    "businessStatus": "存续",
+    "shareholders": ["浙大网新科技股份有限公司（实控人/全资母公司）", "华数网通信息港有限公司（历史发起方）"],
+    "branchCount": 8,
+    "interpretation": "注册资本近3亿元且全额实缴，显示母公司资金实力雄厚；作为A股上市公司600797的全资子公司，治理规范但决策链需穿透母公司；存续状态稳定，增值电信业务资质稀缺且壁垒高。",
+    "organizationType": "集团子公司（上市公司全资子公司）",
+    "keyFindings": [
+      "注册资本近3亿全额实缴，资本实力强，属于重资产运营的IDC行业",
+      "实控人浙大网新（600797）为A股上市公司，治理透明，但决策需向上穿透",
+      "拥有第一/二类增值电信业务许可，资质稀缺构成行业进入壁垒"
+    ]
+  },
+  "hiring": {
+    "keySignals": [
+      "招聘规模100-499人，属中型团队",
+      "近期招聘集中在IDC基础设施方向：暖通工程师、电气工程师",
+      "技术岗招聘反映数据中心扩建或运维扩张需求"
+    ]
+  },
+  "competition": {
+    "industryRank": "国内第三方IDC头部服务商",
+    "marketShare": null,
+    "mainCompetitors": ["万国数据（GDS）", "世纪互联", "光环新网", "数据港", "奥飞数据"],
+    "knownClients": ["阿里云（战略合作伙伴/主要客户）", "腾讯云", "百度云", "杭州市政府", "浙江省政府"]
+  },
+  "organization": {
+    "type": "事业部制（上市公司全资子公司）",
+    "decisionChain": "母公司浙大网新董事会 → 子公司董事长史烈 → 总经理石磊 → 业务部门；政务项目需经政府招标流程",
+    "keyPersons": [
+      { "name": "史烈", "title": "董事长，浙大网新关联企业26家" },
+      { "name": "石磊", "title": "董事兼总经理，浙大网新关联企业17家" },
+      { "name": "沈越", "title": "董事，浙大网新总裁" },
+      { "name": "董丹青", "title": "董事" }
+    ],
+    "salesStrategy": "背靠浙大网新上市公司品牌，主打政务云标杆案例（杭州政务云全国标杆），通过阿里云生态合作获取IDC订单"
+  },
+  "timing": {
+    "phase": "扩张强化",
+    "analysisBasis": [
+      "2023年中标杭州智慧电子政务云平台1.08亿元项目，政务云持续扩张",
+      "2024年11月联合杭州数据交易所发布DeepSeek大模型服务平台，布局AI算力",
+      "暖通/电气等基础设施岗位持续招聘，数据中心扩建信号明显"
+    ],
+    "entryStrategy": "以AI算力服务、数据安全管理等增值服务切入，不直接竞争IDC基础业务；建议通过浙大网新集团层面或联合阿里云生态合作进入",
+    "urgency": "中等——公司处于有序扩张期，有数字化升级需求但决策节奏受母公司治理约束"
+  },
+  "painPoints": [
+    { "area": "资源管理与监控", "description": "全国20万平米数据中心、2万+机柜的运维管理复杂度高，设备状态、能耗、PUE实时监控体系压力大", "severity": "高" },
+    { "area": "项目管理", "description": "政务云项目招标、建设、交付周期长，多项目并行时进度不透明", "severity": "中" },
+    { "area": "客户信息管理", "description": "阿里云、政府、企业等不同类型客户信息分散，销售过程跟踪缺乏统一平台", "severity": "中" },
+    { "area": "账期与回款", "description": "政务云项目账期长，政府回款审批流程复杂；IDC机柜租赁账单管理、对账结算工作繁重", "severity": "高" }
+  ],
+  "opportunities": [
+    { "area": "AI算力服务", "description": "2024年已联合杭州数据交易所发布DeepSeek大模型服务平台，可提供配套的算力调度、数据安全管理平台", "likelihood": "高" },
+    { "area": "政务数字化升级", "description": "杭州/浙江省政务云持续迭代深化，2023年1.08亿大单表明政府投入力度大", "likelihood": "高" },
+    { "area": "信创/国产化替代", "description": "浙大网新已布局鸿蒙生态，数据中心基础设施国产化替代带来新业务空间", "likelihood": "中" }
+  ],
+  "riskAndPolicy": {
+    "riskLevel": "低",
+    "riskSummary": "企业为上市公司浙大网新全资子公司，存续状态正常，仅有1条合同纠纷记录，无行政处罚、失信或经营异常",
+    "legal": {
+      "lawsuitCount": 1,
+      "lawsuitTypes": ["合同纠纷"],
+      "majorLawsuits": [
+        { "type": "合同纠纷", "description": "杭州骏华实业有限公司诉华通云数据科技有限公司合同纠纷一审民事判决书", "date": "2021-04-22" }
+      ],
+      "administrativePenalties": [],
+      "executedPerson": false,
+      "dishonestPerson": false,
+      "businessAnomalies": [],
+      "equityFreeze": false,
+      "equityPledge": false
+    },
+    "policy": {
+      "isSpecializedSME": false,
+      "smeLevel": null,
+      "isHighTech": true,
+      "isGazelle": false,
+      "isUnicorn": false,
+      "digitalTransformation": { "hit": true, "details": "深度参与政府数字化转型项目，2023年中标金额最高不超1.08亿元" },
+      "esgGreen": { "hit": false, "details": null },
+      "xinchuang": { "hit": false, "details": null }
+    }
+  }
+}
