@@ -8,7 +8,7 @@
       "lastUpdated": "2026-04-10",
       "overallAssessment": {
         "customerIntent": "明确提出资产管理系统需求",
-        "projectUrgency": "中等",
+        "projectUrgency": "高",
         "budgetSituation": "20万左右",
         "competitionStatus": "未知",
         "winProbability": "待评估",
@@ -226,8 +226,8 @@
         "flexibility": "未知"
       },
       "timeline": {
-        "expectedStart": "",
-        "expectedGoLive": ""
+        "expectedStart": "2026-06",
+        "expectedGoLive": "2026-12"
       }
     },
     "successCriteria": {},
@@ -332,15 +332,15 @@
       {
         "id": "PQ-005",
         "category": "时间",
-        "priority": "选问",
+        "priority": "必问",
         "stage": "closing",
         "question": "希望什么时候上线？是否有必须交付的关键时间节点？",
         "purpose": "确定项目计划和时间要求",
-        "expectedDirection": "年内上线",
+        "expectedDirection": "6月启动，12月底上线",
         "targetPerson": "项目负责人",
         "relatedNeedIds": [],
-        "status": "pending",
-        "answer": null,
+        "status": "answered",
+        "answer": "6月启动，12月底上线，整体约7个月，时间非常紧",
         "resolvedInVersion": null
       }
     ],
