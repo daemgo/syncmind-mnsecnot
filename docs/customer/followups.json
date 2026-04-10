@@ -1,0 +1,16 @@
+{
+  "records": [
+    {
+      "id": 1,
+      "date": "2026-04-04",
+      "type": "拜访",
+      "content": "拜访客户，采购和财务部门对资产管理系统诉求较高",
+      "attendees": ["采购部门", "财务部门"],
+      "actions": [
+        { "action": "进一步调研采购部门的资产管理痛点与流程", "owner": "售前", "assignee": "", "deadline": "2026-04-18", "done": false, "completedAt": null },
+        { "action": "调研财务部门在资产核算、折旧等环节的需求", "owner": "售前", "assignee": "", "deadline": "2026-04-18", "done": false, "completedAt": null },
+        { "action": "准备资产管理方案介绍材料", "owner": "销售", "assignee": "", "deadline": "2026-04-11", "done": false, "completedAt": null }
+      ]
+    }
+  ]
+}
