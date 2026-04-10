@@ -1,0 +1,357 @@
+{
+  "currentVersion": "v0.1",
+  "status": "draft",
+  "versions": [],
+  "current": {
+    "salesInput": {
+      "salesPerson": "",
+      "lastUpdated": "2026-04-10",
+      "overallAssessment": {
+        "customerIntent": "明确提出资产管理系统需求",
+        "projectUrgency": "中等",
+        "budgetSituation": "20万左右",
+        "competitionStatus": "未知",
+        "winProbability": "待评估",
+        "keyObstacles": ["决策链需穿透母公司", "审批流程较长"],
+        "confidenceLevel": "低"
+      },
+      "keyPersons": [],
+      "realNeeds": {
+        "explicitNeeds": ["资产管理系统"],
+        "implicitNeeds": ["设备运维效率提升", "账实一致性管理"],
+        "suspectedNeeds": ["与现有监控系统集成"]
+      },
+      "decisionFactors": {
+        "primaryFactor": "功能匹配度",
+        "secondaryFactors": ["价格", "行业案例", "实施能力"],
+        "dealBreakers": []
+      },
+      "notes": "客户明确提出需求，预算20万左右，属于有明确意向的商机",
+      "concerns": [],
+      "suggestions": []
+    },
+    "sources": {
+      "meetings": [],
+      "documents": [],
+      "communications": [],
+      "observations": []
+    },
+    "needs": [
+      {
+        "id": "REQ-001",
+        "category": "functional",
+        "title": "资产台账管理",
+        "description": "支持2万+机柜及配套设施（UPS、空调、配电柜、发电机等）的完整台账记录，支持多维度查询和批量操作",
+        "priority": "must",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案显示2万+机柜规模，结合IDC行业重资产特性推演",
+          "raw": null
+        },
+        "status": "active",
+        "module": "资产管理",
+        "relatedPainPoints": ["资源管理与监控"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-002",
+        "category": "functional",
+        "title": "巡检维护计划",
+        "description": "建立设备定期巡检和预防性维护计划，支持周期性任务排程、自动提醒、执行记录和异常闭环",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案显示数据中心运维复杂度高，推演需规范化巡检流程",
+          "raw": null
+        },
+        "status": "active",
+        "module": "运维管理",
+        "relatedPainPoints": ["资源管理与监控"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-003",
+        "category": "functional",
+        "title": "备件库存管理",
+        "description": "管理关键备件库存，支持出入库、借用、归还、调拨等操作，实现库存预警和补货提醒",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "IDC行业设备故障响应时效要求高，推演需备件管理",
+          "raw": null
+        },
+        "status": "active",
+        "module": "资产管理",
+        "relatedPainPoints": ["资源管理与监控"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-004",
+        "category": "functional",
+        "title": "工单管理",
+        "description": "覆盖报修、派工、执行、验收全流程的闭环工单管理，支持多种触发方式和状态跟踪",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "20万平米数据中心多设备并行运维，推演需工单系统",
+          "raw": null
+        },
+        "status": "active",
+        "module": "运维管理",
+        "relatedPainPoints": ["资源管理与监控"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-005",
+        "category": "functional",
+        "title": "资产盘点",
+        "description": "支持定期资产盘点，通过移动端扫码完成盘点任务，自动生成盘点报告和差异分析",
+        "priority": "could",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "行业通用需求，大规模资产需定期盘点确保账实一致",
+          "raw": null
+        },
+        "status": "active",
+        "module": "资产管理",
+        "relatedPainPoints": ["资源管理与监控"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-006",
+        "category": "functional",
+        "title": "运维看板",
+        "description": "提供运维数据可视化看板，展示设备状态分布、运维KPI、工单统计等关键运营指标",
+        "priority": "could",
+        "confidence": "low",
+        "source": {
+          "type": "industry-pattern",
+          "detail": "IDC行业管理驾驶舱需求，支持运维决策",
+          "raw": null
+        },
+        "status": "active",
+        "module": "可视化",
+        "relatedPainPoints": ["项目管理"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      },
+      {
+        "id": "REQ-007",
+        "category": "integration",
+        "title": "与现有监控系统集成",
+        "description": "与现有DCIM/监控平台对接，获取设备运行状态、告警信息，实现统一管理视图",
+        "priority": "should",
+        "confidence": "low",
+        "source": {
+          "type": "profile-inference",
+          "detail": "档案显示数据中心已有运维监控系统，需集成避免信息孤岛",
+          "raw": null
+        },
+        "status": "active",
+        "module": "集成",
+        "relatedPainPoints": ["资源管理与监控"],
+        "firstVersion": "v0.1",
+        "lastUpdated": "v0.1",
+        "history": []
+      }
+    ],
+    "users": [
+      {
+        "role": "数据中心运维人员",
+        "description": "数量待确认（日均多次使用）",
+        "mainTasks": ["设备巡检", "工单处理", "备件领用"]
+      },
+      {
+        "role": "运维主管/经理",
+        "description": "数量待确认（每日数次使用）",
+        "mainTasks": ["排班管理", "工单分配", "数据统计"]
+      },
+      {
+        "role": "资产管理专员",
+        "description": "数量待确认（每日1-2次使用）",
+        "mainTasks": ["台账维护", "资产盘点", "采购申请"]
+      }
+    ],
+    "scope": {
+      "inScope": [
+        "机柜资产管理",
+        "基础设施设备管理（UPS、空调、配电柜、发电机等）",
+        "巡检维护计划管理",
+        "工单全流程管理",
+        "备件库存管理",
+        "基础数据可视化和统计报表",
+        "系统集成（与DCIM/监控平台对接）"
+      ],
+      "outOfScope": [
+        "财务管理和应收应付",
+        "容量规划和仿真",
+        "能耗管理（PUE监测）",
+        "租赁合同和计费管理",
+        "3D机房可视化"
+      ],
+      "futureScope": ["容量规划", "能耗分析", "财务计费"],
+      "phases": [
+        {
+          "phase": 1,
+          "scope": ["资产台账管理", "巡检维护计划", "工单管理"],
+          "description": "核心功能，快速上线"
+        },
+        {
+          "phase": 2,
+          "scope": ["备件库存管理", "资产盘点", "运维看板"],
+          "description": "扩展功能，完善运维闭环"
+        }
+      ],
+      "priorityMatrix": []
+    },
+    "constraints": {
+      "budget": {
+        "total": "20万元",
+        "flexibility": "未知"
+      },
+      "timeline": {
+        "expectedStart": "",
+        "expectedGoLive": ""
+      }
+    },
+    "successCriteria": {},
+    "risksAndAssumptions": {
+      "risks": [
+        {
+          "description": "审批流程较长，需穿透母公司浙大网新",
+          "impact": "高",
+          "mitigation": "提前准备ROI分析和一把手支持材料"
+        },
+        {
+          "description": "与现有系统集成难度超预期",
+          "impact": "中",
+          "mitigation": "前期做好技术调研，明确集成范围和接口需求"
+        },
+        {
+          "description": "数据迁移工作量大（2万+资产）",
+          "impact": "中",
+          "mitigation": "明确现有数据格式，制定迁移计划和校验机制"
+        }
+      ],
+      "assumptions": [
+        {
+          "description": "客户已具备基础的IT运维管理流程",
+          "impact": "中"
+        },
+        {
+          "description": "预算可覆盖标准化产品+轻量定制",
+          "impact": "中"
+        },
+        {
+          "description": "客户可提供必要的系统集成接口文档",
+          "impact": "低"
+        }
+      ],
+      "dependencies": []
+    },
+    "solutionDirection": {
+      "overallApproach": "标准化资产管理系统+轻量定制，优先选择IDC/数据中心行业解决方案",
+      "recommendedApproach": null,
+      "technicalDirection": null,
+      "implementationStrategy": "建议分阶段实施：P1核心功能（台账+巡检+工单），P2扩展功能（备件+盘点+看板）",
+      "nextSteps": ["需求深入访谈", "方案演示", "商务洽谈"]
+    },
+    "pendingQuestions": [
+      {
+        "id": "PQ-001",
+        "category": "业务",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "资产管理的范围是哪些？仅机柜、空调、UPS等基础设施，还是包含客户托管的IT设备？",
+        "purpose": "确定系统功能范围和数据模型",
+        "expectedDirection": "聚焦基础设施设备管理",
+        "targetPerson": "运维负责人",
+        "relatedNeedIds": ["REQ-001"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-002",
+        "category": "预算",
+        "priority": "必问",
+        "stage": "screening",
+        "question": "20万预算是否包含实施、培训和首年服务费用？",
+        "purpose": "明确预算覆盖范围，合理规划资源配置",
+        "expectedDirection": "含实施和服务费用",
+        "targetPerson": "采购或IT负责人",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-003",
+        "category": "技术",
+        "priority": "必问",
+        "stage": "deep-dive",
+        "question": "目前用什么方式管理设备台账？Excel表格还是已有系统（如DCIM、CMDB）？",
+        "purpose": "了解现有信息化水平，确定数据迁移方案",
+        "expectedDirection": "有系统则集成，无则迁移",
+        "targetPerson": "IT/运维负责人",
+        "relatedNeedIds": ["REQ-001", "REQ-007"],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-004",
+        "category": "业务",
+        "priority": "选问",
+        "stage": "deep-dive",
+        "question": "有多少人需要使用这个系统？各角色的使用频次和场景是什么？",
+        "purpose": "确定用户数量和功能优先级",
+        "expectedDirection": "运维人员为主，10-20人",
+        "targetPerson": "运维负责人",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      },
+      {
+        "id": "PQ-005",
+        "category": "时间",
+        "priority": "选问",
+        "stage": "closing",
+        "question": "希望什么时候上线？是否有必须交付的关键时间节点？",
+        "purpose": "确定项目计划和时间要求",
+        "expectedDirection": "年内上线",
+        "targetPerson": "项目负责人",
+        "relatedNeedIds": [],
+        "status": "pending",
+        "answer": null,
+        "resolvedInVersion": null
+      }
+    ],
+    "completionRate": {
+      "overall": 14,
+      "byCategory": {
+        "business": 0,
+        "functional": 20,
+        "technical": 20
+      },
+      "blockers": []
+    }
+  }
+}
