@@ -1,0 +1,147 @@
+{
+  "salesGuide": {
+    "timing": {
+      "timingStage": "选型评估期",
+      "entryStrategy": "以IDC资产管理系统切入，聚焦2万+机柜规模带来的运维压力，突出账实一致性管理和巡检闭环能力；通过浙大网新集团或阿里云生态合作进入，避免直接竞争基础IDC业务",
+      "urgency": "中"
+    },
+    "stageAdvice": {
+      "focus": "尽快完成需求摸底，确认资产管理范围和决策链关键人",
+      "approach": "以运维效率提升和账实一致性为核心卖点，结合华通云数据2万+机柜规模的实际痛点设计demo场景",
+      "risks": "决策链长、审批需穿透母公司，容易陷入漫长等待"
+    },
+    "competitors": [
+      {
+        "name": "现状竞对（Excel/人工台账）",
+        "threat": "高",
+        "strengths": ["零实施成本，立即可用", "灵活定制，不受系统约束", "运维人员已习惯现有方式"],
+        "weaknesses": ["2万+机柜规模下人工管理效率低下", "设备状态、巡检记录难以追溯", "多人协作时版本混乱、数据不一致"],
+        "counterStrategy": "用真实盘点场景演示系统效率差距，强调规模化后的管理风险"
+      },
+      {
+        "name": "万国数据（GDS）/ 世纪互联等行业方案",
+        "threat": "低",
+        "strengths": ["IDC行业标杆客户背书", "与数据中心业务深度绑定", "品牌认知度高"],
+        "weaknesses": ["方案偏向头部大型客户，20万预算难以覆盖", "标准化程度高，定制灵活性差", "实施周期长、商务流程复杂"],
+        "counterStrategy": "强调我们的小快灵交付能力和分阶段实施策略，20万预算内快速见效"
+      },
+      {
+        "name": "泛IT运维系统（泛微/蓝凌/致远OA+流程）",
+        "threat": "中",
+        "strengths": ["已有OA入口，用户熟悉", "流程审批能力强", "上市公司采购合规性好"],
+        "weaknesses": ["资产管理模块非核心，功能深度不足", "与IDC设备管理场景匹配度低", "机柜、UPS、空调等设施管理能力弱"],
+        "counterStrategy": "强调IDC专业场景深度，对比泛OA在设备台账、巡检、备件管理上的功能差距"
+      }
+    ],
+    "decisionChain": {
+      "decisionMakers": [
+        {
+          "name": "史烈",
+          "department": "董事长",
+          "reason": "浙大网新全资子公司董事长，最终审批权归属，重大IT采购必须经其认可"
+        },
+        {
+          "name": "石磊",
+          "department": "总经理",
+          "reason": "日常经营管理实际负责人，业务需求和预算审批的直接把控者"
+        }
+      ],
+      "influencers": [
+        {
+          "name": "运维负责人（待确认）",
+          "department": "运维部",
+          "reason": "系统实际使用方，需求提出方，对选型有重要建议权"
+        },
+        {
+          "name": "IT负责人（待确认）",
+          "department": "IT部",
+          "reason": "系统技术选型和集成方案的把控，需其评估与DCIM/监控平台对接可行性"
+        },
+        {
+          "name": "浙大网新总部IT/财务",
+          "department": "母公司",
+          "reason": "20万以上采购可能触发母公司审批流程，需提前了解其采购合规要求"
+        }
+      ],
+      "blockers": [
+        {
+          "name": "浙大网新母公司审批",
+          "department": "集团层面",
+          "reason": "决策链需向上穿透，上市公司合规流程可能导致决策周期拉长"
+        }
+      ]
+    },
+    "avoidTopics": [
+      "合同纠纷记录（2021年杭州骏华实业诉讼）——不主动提及，避免引发合规联想",
+      "阿里云依赖风险——客户与阿里云为战略合作伙伴，不主动讨论竞合关系",
+      "母公司治理效率——不评价浙大网新审批流程长短，避免触碰决策层敏感点"
+    ],
+    "interviewGuide": {
+      "fromRequirements": [
+        {
+          "questionId": "PQ-001",
+          "stage": "screening",
+          "question": "资产管理的范围是哪些？仅机柜、空调、UPS等基础设施，还是包含客户托管的IT设备？",
+          "priority": "必问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-002",
+          "stage": "screening",
+          "question": "20万预算是否包含实施、培训和首年服务费用？",
+          "priority": "必问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-003",
+          "stage": "deep-dive",
+          "question": "目前用什么方式管理设备台账？Excel表格还是已有系统（如DCIM、CMDB）？",
+          "priority": "必问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-004",
+          "stage": "deep-dive",
+          "question": "有多少人需要使用这个系统？各角色的使用频次和场景是什么？",
+          "priority": "选问",
+          "status": "pending"
+        },
+        {
+          "questionId": "PQ-005",
+          "stage": "closing",
+          "question": "希望什么时候上线？是否有必须交付的关键时间节点？",
+          "priority": "选问",
+          "status": "pending"
+        }
+      ]
+    },
+    "tracking": {
+      "coverageRate": 0,
+      "coveredCount": 0,
+      "totalCount": 5,
+      "pendingCritical": ["PQ-001", "PQ-002", "PQ-003"]
+    },
+    "nextActions": [
+      {
+        "action": "安排与运维负责人的需求深访，完成PQ-001至PQ-003三个必问题的采集",
+        "deadline": "2026-04-17",
+        "owner": "销售"
+      },
+      {
+        "action": "收集客户现有DCIM/监控平台接口资料，评估集成难度",
+        "deadline": "2026-04-17",
+        "owner": "售前"
+      },
+      {
+        "action": "准备IDC资产管理系统demo，重点演示2万+机柜场景下的台账管理和巡检闭环",
+        "deadline": "2026-04-15",
+        "owner": "售前"
+      }
+    ],
+    "metadata": {
+      "generatedAt": "2026-04-10T09:00:00Z",
+      "updatedAt": "2026-04-10T09:00:00Z",
+      "version": "1.0"
+    }
+  }
+}
